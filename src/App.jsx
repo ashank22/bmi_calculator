@@ -53,14 +53,14 @@ const App = () => {
 
   return (
     <div className="m-10 bg-gray-100 h-screen rounded-lg p-10">
-      <div className="flex p-2 rounded-lg bg-gray-100">
-        <img src="./black-cat-icon.png" alt="bmi" className="w-10 h-10 ml-auto" />
+      <div className="flex p-2 rounded-lg bg-gray-100 ">
+        <img src="./black-cat-icon.png" alt="bmi" className="w-10 h-10 md:ml-auto" />
         <div className="mt-1">
-          <h1 className="text-2xl font-semibold">Healthierr</h1>
+          <h1 className="text-2xl font-semibold tracking-wide mb-5">Healthierr</h1>
         </div>
       </div>
-      <h1 className="text-3xl font-semibold mt-8">BMI Calculator</h1>
-      <div className="grid grid-cols-2 gap-4 mt-4 ">
+      <h1 className="text-2xl font-semibold md:mt-8">BMI Calculator</h1>
+      <div className="md:grid md:grid-cols-2 md:gap-4 md:mt-4 ">
         <div className="bg-white shadow-xl p-4 rounded-lg flex flex-col justify-center">
           <label className="mb-8">
             Weight ({weight} kg):
